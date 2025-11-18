@@ -1,0 +1,43 @@
+
+<form action="" method="post">
+
+    <div>
+    <label for="ime">Ime</label>
+    <input type="text" id="ime" name="fname" required>
+    </div>
+    <div>
+    <label for="prezime">Prezime</label>
+    <input type="text" id="prezime" name="lname">
+    </div>
+    <div>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+        <label for="drzave">Države</label>
+    <select id="drzave" name="drzave" required>
+        <option value="">Molim odaberite</option>
+        <option value="Hrvatska">Hrvatska</option>
+        <option value="BiH">BiH</option>
+        <option value="Slovenija">Slovenija</option>
+    </select>
+    </div>
+    <div>
+        <label for="napomena">Napomena</label>
+        <textarea id="napomena" name="napomena"></textarea>
+    </div>
+    <div>
+        <label for="newsletter">Newsletter</label>
+        <input type="checkbox" name="newsletter" id="newsletter" value="Da">Da
+    </div>
+    <div>
+        <input type="radio" name="interes" value="Moda">Moda
+        <input type="radio" name="interes" value="Auto">Auto
+        <input type="radio" name="interes" value="Boje">Boje
+    
+    </div>
+
+    <input type="submit" value="posalji">
+    <input type="reset" value="obrisi">
+
+</form>
